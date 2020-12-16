@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login li{
+    list-style: none; /* saca los puntos del menu */
+    display: inline; /* los coloca linealmente al menu, uno al lado del otro */
+    font-weight: bold; /* los pone como en negrita a las letras, como grueso */
+}
+
+.login a{
+    text-decoration: none; /* le saca lo subrayado al menu */
+    color: white;
+    text-transform: uppercase; /* pone en mayusculas las letras del menu */
+}
+
+body{
+    background-image: url('../img/bg-2.png');
+}
+
+.login{
+    width: 1140px;
+}
+
+.login header{
+    background-color: orangered; 
+    width: 100%;
+    margin-top: 10px; /* separa del margen superior*/
+    padding: 15px; /* separa el espacio del interior del header*/
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* HEADER */
+
+.login header img{
+    float: left;
+}
+
+.login header ul.lista1{
+    float: left;
+    padding: 10px;  /* centra el menu en el medio del background color orangered */
+}
+
+.login header ul.lista2{
+    float: right;
+    padding: 10px;
+}
+
+.login header li{
+    padding: 10px; /* separaciones entre palabras del menu */
+}
+
+/* MAIN */
+
+.login main{
+    width: 350px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.login main h1{
+    text-align: center;
+    font-size: 25px;
+    color: #474646;
+    padding: 20px;
+}
+
+.login main input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    height: 30px;
+    border: gray;
+}
+
+.login main #submit{
+    border: none
+    height: 40px;
+    background: #1B83AD;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.login main #recordarme{
+    height: 15px;
+}
