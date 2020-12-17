@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.registro li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+}
+
+.registro a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+body{
+    background-image: url('../img/bg-2.png');
+}
+
+.registro{
+    width: 1140px;
+    margin-top: 8px;
+}
+
+/* header */
+
+.registro header{
+    background-color: orangered;
+    width: 1140px;
+    padding: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.registro header img{
+    float: left;
+}
+.registro header ul.lista1{
+    float: left;
+    padding: 10px;
+}
+
+.registro header ul.lista2{
+    float: right;
+    padding: 10px;
+}
+
+.registro header li{
+    padding: 10px;
+}
+
+/* main */
+
+.registro main{
+    width: 350px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-weight: bold;
+    color:  #474646;
+} 
+
+.registro main .register h1{
+    font-weight: bold;
+    color: #474646;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.registro main .register input{
+    width: 100%;
+    margin-bottom: 30px;
+    height: 30px; 
+    border: #474646; 
+}  
+
+
+.registro main h2{
+    font-weight: bold;
+    color:  #474646;
+    margin: 20px;
+    margin-left: 0;
+}
+
+.registro main .pais select{
+    border-radius: 6px;
+    width: 165px;   
+}
+
+.registro main .genero label{
+    font-weight: bold;
+    color: rgb(63, 62, 62);
+    padding: 5px;
+}
+
+.registro main .hobbies label{
+    font-weight: bold;
+    color:  rgb(63, 62, 62);
+    padding: 5px;
+}
+
+.registro main .comentarios textarea{
+    width: 85%;
+}
+
+.registro main .terminos{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.registro main .terminos label{
+    font-weight: bold;
+    color:  rgb(63, 62, 62);
+    padding: 5px;
+}
+
+
+.registro main .confirmacion button{
+    margin-top: 25px;
+    border-radius: 10px;
+    color:white;
+    background-color: #1B83AD;
+    border: none;
+    height: 40px;
+    width: 130px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+

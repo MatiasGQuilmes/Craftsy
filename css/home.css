@@ -21,15 +21,17 @@ body{
 }
 
 .home{
-    width: 1140px;
-    margin-top: 100px;
+    max-width: 1140px;
+    width: 100%;
+    margin-top: 150px;
 }
 
 /* HEADER */
 
 .home header{
     background-color: orangered;
-    width: 1140px;
+    max-width: 1140px;
+    width: 100%;
     padding: 15px;
     overflow: hidden;
     margin-bottom: 20px;
@@ -46,11 +48,22 @@ body{
 .home header ul.lista1{
     float: left;
     padding: 10px;
+    display: none;
 }
 
 .home header ul.lista2{
     float: right;
     padding: 10px;
+}
+
+.home header ul.listacelu{
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.home header ul.listacelu a:hover{
+    color: rgb(85, 0, 0);
 }
 
 .home header li{
@@ -62,15 +75,16 @@ body{
 /* MAIN */
 .home main{
     float: left;
-    width: 800px;
+    width: 100%;
     background-color: white;
     margin-bottom: 10px; /* me centro la pagina */
+    overflow: hidden;
 }
 
 /* SECCIONES PRODUCTOS */
 
 .home main section{
-    width: 380px;
+    max-width: 92%;
     margin: 10px;
     float: left;  
     position: relative;  
@@ -110,8 +124,9 @@ body{
 
 /* Titulo */
 .home aside{
-    float: right;
-    width: 320px;
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
 }
 
 .home aside section h2{
@@ -160,6 +175,40 @@ body{
 .home aside section div#publicidad img{
     width: 100%;
     padding: 10px;
+}
+
+/* TABLET */
+
+@media(min-width:426px){
+    .home{
+        margin-top: 100px;
+    }
+    .home header ul.lista1{
+        display: inline;
+    }
+    .home header ul.listacelu{
+        display: none;
+    }
+    .home main section{
+        max-width: 46%;
+    }
+    .home aside{
+        width: 50%;
+    }
+}
+
+/* ESCRITORIO */
+
+@media(min-width: 769px){
+    .home main{
+    width: 64%;
+    }
+    .home main section{
+        width: 50%;
+    }
+    .home aside{
+        width: 30%;
+    }
 }
 
 
